@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(255, 43, 15);
+    color: white;
+  }
+
+  .btn {
+    background-color: black;
+    border-color: black;
+}
+
+.btn:hover{
+    background-color: white;
+    border-color: white;
+    color: black;
+}
+
+h1 {
+    margin-bottom: 20px;
+  }
+  
+  h2{
+      margin-top:40px;
+  }
+
+  
+  #resultScreen{
+    display: none;
+  }
+
+  #question {
+    margin-top: 32px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+
+  #timer {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  
+  
+  #correctAnswers {
+    margin-top: 32px;
+  }
+  
+  
+  #doneButton {
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
