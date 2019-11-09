@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pokemon Trivia Game</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <img src="http://pluspng.com/img-png/pokemon-logo-png-pokemon-logo-png-2000.png" class="img-fluid text-center" id="mainLogo">
+        <img src="https://thumbs.gfycat.com/PlushPitifulBonobo-max-1mb.gif" class="img-fluid text-center">
+        <div>
+            <h3 id="timer"></h3>
+          </div>
+    </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <div id="start" class="startText">
+          <h3>I Choose You!</h3>
+          <p>Do you want to be the very best? Like no one ever was? To answer these questions correctly is your real test, to get all correct is your cause! Good Luck Trainer!</p>
+          <div class="btn btn-primary" id="startButton">Start
+          </div>
+        </div>
+
+      <div>
+        <div id="questions">
+        </div>
+      </div>
+
+        <div class="hidden" id="resultScreen">
+          <h2 id="trainerType"></h2>
+          <p id="correctAnswers"></p>
+          <p id="incorrectAnswers"></p>
+          <p id="unanswered"></p>
+        </div>
+    </div>
+  </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+</html>
